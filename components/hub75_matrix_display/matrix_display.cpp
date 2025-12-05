@@ -76,12 +76,12 @@ namespace esphome
             case HUB75_I2S_CFG::shift_driver::MBI5124:
                 ESP_LOGCONFIG(TAG, "  Driver: MBI5124");
                 break;
-            case HUB75_I2S_CFG::shift_driver::SM5266P:
-                ESP_LOGCONFIG(TAG, "  Driver: SM5266P");
-                break;
-            case HUB75_I2S_CFG::shift_driver::DP3246_SM5368:
-                ESP_LOGCONFIG(TAG, "  Driver: DP3246_SM5368");
-                break;
+//            case HUB75_I2S_CFG::shift_driver::SM5266P:
+//               ESP_LOGCONFIG(TAG, "  Driver: SM5266P");
+//                break;
+//            case HUB75_I2S_CFG::shift_driver::DP3246_SM5368:
+//                ESP_LOGCONFIG(TAG, "  Driver: DP3246_SM5368");
+//                break;
             }
 
             ESP_LOGCONFIG(TAG, "  I2S Speed: %u MHz", (uint32_t)cfg.i2sspeed / 1000000);
